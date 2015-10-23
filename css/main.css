@@ -26,3 +26,38 @@ html {
 body {
   margin: 0;
 }
+
+.gutter {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+@media only screen and (min-width: 25em){
+
+  li {
+    display: inline-block;
+  }
+
+  nav {
+    text-align: center;
+    margin: 2em;
+  }
+
+}
