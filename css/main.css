@@ -27,37 +27,71 @@ body {
   margin: 0;
 }
 
-.gutter {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+a{
+  color: blue;
+  text-decoration: none;
+  width: 100%;
+}
+
+a:hover {
+  color: #fff;
+}
+
+ol li:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+.grey1 {
+  background-color: #cccccc;
+}
+
+.grey2 {
+  background-color: #e2e2e2;
+}
+
+
+nav {
+  text-align: center;
+}
+
+.foot-nav {
+  text-align: left;
+  color: blue;
+}
+
+.foot-nav ol li {
+  display: inline;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+dd {
+  font-size: 1.125rem;
+  line-height: 1.2444;
 }
 
 h1 {
   text-align: center;
 }
 
-ol {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-a{
-  text-decoration: none;
-}
-
-header {
-  background-color: lightgrey;
-}
 
 @media only screen and (min-width: 25em){
 
   li {
     display: inline-block;
   }
+}
 
+@media only screen and (min-width: 25em){
   nav {
-    text-align: center;
-    margin: 2em;
+    text-align: left;
   }
 
+  h1 {
+    text-align: left;
+  }
 }
